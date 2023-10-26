@@ -1,13 +1,15 @@
 ---
-title: Welcome to use Hexo Theme Keep
+title: Welcome to Xueqi Li's Website
 date: 2022-10-25 11:40:36
 tags: [Hexo, Keep]
 categories: Hexo
 ---
 
-Welcome to use Hexo Theme Keep.
+Welcome to my website.
 
-This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues).
+My name is Xueqi Li. I am currently an undergraduate student at Beijing Jiaotong University (BJTU). I major in Software Engineering. My research interest includes deep learning and backend development.
+
+<!-- This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues). -->
 
 <!-- more -->
 
