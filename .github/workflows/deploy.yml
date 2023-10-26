@@ -14,9 +14,9 @@ jobs:
           fetch-depth: 0
 
       - name: Build and Deploy
-        uses: theme-keep/hexo-deploy-github-pages-action@master
+        uses: xueqili02/xueqili.github.io@main
         env:
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_REPOSITORY: theme-keep/hexo-theme-keep-starter
+          PUBLISH_REPOSITORY: xueqili02/xueqili.github.io
           BRANCH: gh-pages
           CNAME: keep-start.xpoet.cn
