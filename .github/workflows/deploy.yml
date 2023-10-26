@@ -16,7 +16,7 @@ jobs:
       - name: Build and Deploy
         uses: theme-keep/hexo-deploy-github-pages-action@master
         env:
-          PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }}
+          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_REPOSITORY: theme-keep/hexo-theme-keep-starter
           BRANCH: gh-pages
           CNAME: keep-start.xpoet.cn
