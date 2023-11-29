@@ -18,13 +18,13 @@ Features:
 - fall detection through YOLO + Single Person Pose Estimator + Multi-Objects Tracker + Spatial Temporal GCN
 
 gesture navigation demo:
-![](https://i.imgur.com/6AbZ7UX.gifv)
+[](https://i.imgur.com/6AbZ7UX.gifv)
 
 dynamic facial recognition for login - using a picture will cause failure
-![](https://i.imgur.com/xL4pfoW.gifv)
+[](https://i.imgur.com/xL4pfoW.gifv)
 
 dynamic facial recognition for login - user must blink to login
-![](https://i.imgur.com/f4fX6fZ.gifv)
+[](https://i.imgur.com/f4fX6fZ.gifv)
 
 ![](https://i.imgur.com/nLldrXW.png)
 
