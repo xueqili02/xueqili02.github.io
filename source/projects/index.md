@@ -27,10 +27,10 @@ dynamic facial recognition for login - user must blink to login
 ![](/source/resources/dynamic_login_success.gif)
 
 <video controls>
-      <source src="/source/resources/11.mp4" type="video/mp4">
+      <source src="/source/resources/11.avi" type="video/mp4">
 </video>
-<video width="320" height="240" controls>
-  <source src="/source/resources/11.mp4" type="video/mp4">
+<video controls>
+  <source src="/source/resources/22.mp4" type="video/mp4">
   您的浏览器不支持视频播放。
 </video>
 ## eMovie (Movie Recommendation System)
