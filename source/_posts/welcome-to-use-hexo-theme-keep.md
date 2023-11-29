@@ -7,7 +7,6 @@ categories: Hexo
 
 Welcome to my website.
 
-My name is Xueqi Li. I am currently an undergraduate student at Beijing Jiaotong University (BJTU). I major in Software Engineering. My research interest includes deep learning and backend development.
 
 <!-- This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues). -->
 
