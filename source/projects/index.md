@@ -25,7 +25,7 @@ dynamic facial recognition for login - using a picture will cause failure
 
 dynamic facial recognition for login - user must blink to login
 ![](/source/resources/dynamic_login_success.gif)
-
+![](/source/resources/cat.png)
 <video controls>
       <source src="/source/resources/11.avi" type="video/mp4">
 </video>
