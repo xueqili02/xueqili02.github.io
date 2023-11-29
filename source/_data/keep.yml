@@ -64,7 +64,7 @@ style:
 # e.g. `hexo new page categories` or `hexo new page tags`
 menu:
   Home: /
-  Archives: /archives
+  # Archives: /archives
   # Tags: /tags
   # Categories: /categories
   # Links: /links

@@ -7,12 +7,13 @@ categories: Hexo
 
 Welcome to my website.
 
+Check my projects in 
 
 <!-- This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues). -->
 
 <!-- more -->
 
-## Quick Start
+<!-- ## Quick Start
 
 ### Create a new post
 
@@ -44,4 +45,4 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
