@@ -18,21 +18,16 @@ Features:
 - fall detection through YOLO + Single Person Pose Estimator + Multi-Objects Tracker + Spatial Temporal GCN
 
 gesture navigation demo:
-![](/source/resources/gesture_navigation.gif)
+![](https://i.imgur.com/6AbZ7UX.gifv)
 
 dynamic facial recognition for login - using a picture will cause failure
-![](/source/resources/dynamic_login_failure.gif)
+![](https://i.imgur.com/xL4pfoW.gifv)
 
 dynamic facial recognition for login - user must blink to login
-![](/source/resources/dynamic_login_success.gif)
-![](/source/resources/cat.png)
-<video controls>
-      <source src="/source/resources/11.avi" type="video/mp4">
-</video>
-<video controls>
-  <source src="/source/resources/22.mp4" type="video/mp4">
-  您的浏览器不支持视频播放。
-</video>
+![](https://i.imgur.com/f4fX6fZ.gifv)
+
+![](https://i.imgur.com/nLldrXW.png)
+
 ## eMovie (Movie Recommendation System)
 
 
