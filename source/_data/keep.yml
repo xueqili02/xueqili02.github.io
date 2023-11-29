@@ -64,12 +64,9 @@ style:
 # e.g. `hexo new page categories` or `hexo new page tags`
 menu:
   Home: /
-  # Archives: /archives
-  # Tags: /tags
-  # Categories: /categories
-  # Links: /links
-  About: /about
+  Projects: /projects
   Publications: /publications
+  About: /about
   # Changelog: /changelog
   # ......
 
@@ -84,7 +81,7 @@ social_contact:
     # If you want to click open the picture, you need to add a prefix "img |",
     # at the same time change your link to the image link.
     # e.g. [ weixin: img | https://x.com/images/wechat.png ] or [ weixin: img | ./images/wechat.png ]
-    github:          # GitHub
+    github: https://github.com/xueqili02         # GitHub
     weixin:          # WeChat
     qq:              # QQ
     weibo:           # WeiBo
