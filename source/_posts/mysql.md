@@ -1,6 +1,7 @@
 ---
 title: MySQL Note
 date: 2023-9-13 15:36:47
+toc: true
 # tags: [Hexo, Keep]
 # categories: Introduction
 ---

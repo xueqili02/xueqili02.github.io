@@ -1,6 +1,7 @@
 ---
 title: Redis Note
 date: 2023-11-30 10:30:12
+toc: true
 # tags: [Hexo, Keep]
 # categories: Introduction
 ---
