@@ -14,19 +14,9 @@ date: 2023-11-30 11:25:45
 ### Three
 
 ## Four
-
----
-title: MySQL Note
-date: 2023-9-13 15:36:47
-toc: true
-# tags: [Hexo, Keep]
-# categories: Introduction
----
-
-# MySQL Note
-
+aa
 ## MySQL概述
-
+### 1
 区分DB，DBMS，SQL，RDBMS：
 - DB是database，数据库，是存储数据的仓库
 - DBMS是database management system，是管理数据库的软件，例如：MySQL、SQL Server等
@@ -34,7 +24,7 @@ toc: true
 - RDBMS，关系型dbms，建立在关系模型基础上，由多张相互连接的二维表组成
 
 ## SQL
-
+### 1
 SQL分类
 - DDL：Data Definition Language，定义数据库对象（db，table，index）
 - DML: Data Manipulation Language，对数据库数据进行增删改
@@ -231,7 +221,7 @@ REVOKE 权限列表 ON dbname.tablename FROM 'username'@'host';
 - CASE [expr] WHEN [val1] THEN [res1] ... ELSE [defalt] END
 
 ## 约束
-
+### 1
 约束是作用在表中字段上的规则，用于限制存储在表中的数据，保证数据的正确、有效性和完整性
 
 分类：
@@ -267,7 +257,7 @@ ALTER TABLE tablename ADD CONSTRAINT foreignKeyName FOREIGN KEY (col) REFERENCES
 ```
 
 ## 多表查询
-
+### 1
 多表关系
 - 一对多：在多的一方建立外键，指向一的一方的主键
 - 多对多：建立第三张表，至少设置两个外键，分别关联两张表的主键
@@ -323,7 +313,7 @@ SELECT * FROM a WHERE col1 = (SELECT col1 FROM b);
   - FROM后
 
 ## 事务
-
+### 1
 事务是一组操作的集合，事务会将所有操作一起向系统提交执行，要么同时成功，要么同时失败
 
 开启事务 -> 提交事务，如果出现异常，事务回滚
@@ -380,7 +370,7 @@ SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL [4种]
 ```
 
 ## 存储引擎
-
+### 1
 存储引擎就是存储数据、建立索引、更新/查询数据等技术的实现方式。存储引擎是基于表的，而不是基于库的，所以存储引擎也可以被称为表类型
 
 ```SQL
@@ -432,6 +422,7 @@ InnoDB和MyISAM对比：
 - InnoDB 的性能比 MyISAM 更强大。
 
 ## 索引
+### 1
 索引是MySQL中的一种高效、有序的数据结构
 
 无索引：进行全表扫描
@@ -1045,7 +1036,7 @@ Purge线程清理Undo日志时，判断Undo日志中的trx_no属性的值小于�
 - 隔离性：锁+MVCC
 - 持久性：bin log + redo log
 
-## MySQL自增值不连续
+### MySQL自增值不连续
 自增值不连续的 4 个场景：
 - 自增初始值和自增步长设置不为 1
 - 唯一键冲突
@@ -1099,7 +1090,7 @@ log_querys_not_using_indexes=1
 ```
 
 ## 主从复制
-
+### 主从复制
 主从复制是指将主数据库的DDL和DML语句通过binlog传到从库中，从库根据binlog进行重新执行，从而使主库和从库的数据保持同步。
 
 MySQL支持一台主库向多台从库进行复制，也支持从库向从库进行复制，形成链状复制。
