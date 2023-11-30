@@ -170,7 +170,7 @@ toc:
   init_open: true    # Option values: true | false
 
   # TOC layout on article page
-  layout: right      # Option values: left | right
+  layout: left      # Option values: left | right
 
 # ---------------------------------------------------------------------------------------
 # Website count
