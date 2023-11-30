@@ -11,7 +11,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Your blog website title
-  title: Xueqi Li's Website
+  title: Xueqi Li
 
   # Your blog website author name
   author: Xueqi Li
@@ -26,13 +26,13 @@ style:
 
   # Your blog website logo image
   # You can use local image, image external link or don't fill
-  logo: /images/logo.svg
+  logo: https://i.imgur.com/77CaNz6.jpg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: https://i.imgur.com/77CaNz6.jpg
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg
+  avatar: https://i.imgur.com/77CaNz6.jpg
 
   # First screen style settings
   first_screen:
@@ -75,20 +75,20 @@ menu:
 # Docs: https://keep-docs.xpoet.cn/tutorial/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. [ github: https://github.com/XPoet ]
     # If you want to click open the picture, you need to add a prefix "img |",
     # at the same time change your link to the image link.
     # e.g. [ weixin: img | https://x.com/images/wechat.png ] or [ weixin: img | ./images/wechat.png ]
     github: https://github.com/xueqili02         # GitHub
-    weixin:          # WeChat
-    qq:              # QQ
-    weibo:           # WeiBo
-    zhihu:           # ZhiHu
-    twitter:         # Twitter
-    facebook:        # Facebook
-    email:           # Email
+    # weixin:          # WeChat
+    # qq:              # QQ
+    # weibo:           # WeiBo
+    # zhihu:           # ZhiHu
+    # twitter:         # Twitter
+    # facebook:        # Facebook
+    # email:           # Email
 
 # ---------------------------------------------------------------------------------------
 # Home page article block display settings
@@ -115,10 +115,10 @@ post:
 
     # If true, show Lv1, Lv2, Lv3 ...
     # If false, show custom_label_list
-    auto: true    # Option values: true | false
+    auto: false    # Option values: true | false
 
     # Label array item can be fill one or more
-    custom_label_list: ["Trainee", "Engineer", "Architect"]
+    custom_label_list: ["Programmer", "Footballer"]
 
   # Post word count
   # Dependencies: hexo-wordcount (`npm install hexo-wordcount`)

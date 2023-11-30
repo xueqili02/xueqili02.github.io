@@ -12,6 +12,9 @@ Download my CV [here](/download/cv_xueqili.pdf).
 - Beijing Jiaotong University, B.Eng. in Software Engineering, Sep 2020 - Jun 2024 (Expected)
   - GPA: 3.87 / 4.0, Ranking: 1 / 183
 
+## Research
+- Beijing Jiaotong University, Research Assistant, Superviser: Prof. Ruipeng Gao, Aug 2022 - Sep 2023
+
 ## Internship
 - NetEase Youdao, Backend Development Intern, Sep 2023 - Present
   - Performance optimization
@@ -23,3 +26,9 @@ Download my CV [here](/download/cv_xueqili.pdf).
 - Frameworks: PyTorch, Spring Boot, Django, MyBatis
 - Databases: MySQL, Redis
 - IDEs/Editors: IDEA, CLion, PyCharm, VS Code
+
+## Standardized Test
+
+- TOEFL: 114
+- GRE: Verbal 161, Quantitative 170, AW 4.0
+- 大学英语六级 CET-6: 678

@@ -1,8 +1,8 @@
 ---
 title: Welcome to Xueqi Li's Website
 date: 2022-10-25 11:40:36
-tags: [Hexo, Keep]
-categories: Hexo
+# tags: [Hexo, Keep]
+# categories: Introduction
 ---
 
 Welcome to my website.
@@ -10,6 +10,8 @@ Welcome to my website.
 Check my projects at [here](/projects).
 
 Check my publications at [here](/publications).
+
+Welcome to try my Edge extension [SearchingTAB](https://microsoftedge.microsoft.com/addons/detail/searchingtab/hhfjkhkaehbignlgnngiigjdjejagono). Boost your Productivity in the browser!
 
 Wanna know more about me? Go [here](/about).
 
