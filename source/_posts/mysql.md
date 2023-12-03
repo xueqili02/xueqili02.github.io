@@ -989,11 +989,6 @@ select OBJECT_SCHEMA, OBJECT_NAME, INDEX_NAME, LOCK_TYPE, LOCK_MODE, LOCK_STATUS
   - supremum pseudo-record：正无穷
   - 100：表示锁的右边界，锁的左边界是该属性的的上一条记录的值
 
-行锁的测试数据
-```
-
-```
-
 ## InnoDB引擎
 
 ### 逻辑存储结构
