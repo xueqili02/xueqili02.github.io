@@ -940,18 +940,12 @@ InnoDB的数据是基于索引组织的，行锁是对索引上的索引项加�
 - 间隙锁gap lock：锁住索引记录的间隙（左开右闭），不包含该记录，确保索引记录不变，防止其他事务在间隙进行insert，产生幻读。在RR隔离级别下支持。锁住的间隙是第一条索引记录之前的范围，或最后一条索引记录之后的范围
   - 间隙锁唯一目的是防止其他事务插入间隙。间隙锁可以共存
 - 临键锁Next-Key Lock：索引记录的行锁 + 记录前的间隙的间隙锁。在RR隔离级别下支持
-  - 假设有四条索引记录10，11，13，20，临键锁对该索引的锁覆盖了以下区间
-    ```
-    (negative infinity, 10]
-    (10, 11]
-    (11, 13]
-    (13, 20]
-    (20, positive infinity)
-    ```
-  <!-- - 索引上的等值查询(唯一索引)，给不存在的记录加锁时，优化为记录锁。
-  - 索引上的等值查询(普通索引)，向右遍历时最后一个值不满足查询需求，next-key lock退化为间隙锁
-  - 索引上的范围查询(唯一索引)，会访问到不满足条件的第一个值为止，在这个不满足条件的值前后加临键锁（该记录之前到范围的锁，无穷大到该记录的锁）。 -->
-
+  - 假设有四条索引记录10，11，13，20，临键锁对该索引的锁覆盖了以下区间 
+    - `(negative infinity, 10]`
+    - `(10, 11]`
+    - `(11, 13]`
+    - `(13, 20]`
+    - `(20, positive infinity)`
 - 唯一索引
   - 精确等值查询 `where id = 10`：
     - `id 10`存在，则next-key lock退化为行锁，不加间隙锁 （如果where中是多列唯一索引中的一些列，依然会有间隙锁）(This does not include the case that the search condition includes only some columns of a multiple-column unique index; in that case, gap locking does occur.)；
