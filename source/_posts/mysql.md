@@ -8,9 +8,7 @@ date: 2023-11-30 11:25:45
 
 - [MySQL](#mysql)
   - [MySQL概述](#mysql概述)
-    - [1](#1)
   - [SQL](#sql)
-    - [1](#1-1)
     - [DDL](#ddl)
     - [DML](#dml)
     - [DQL](#dql)
@@ -21,18 +19,13 @@ date: 2023-11-30 11:25:45
     - [日期函数](#日期函数)
     - [流程函数](#流程函数)
   - [约束](#约束)
-    - [1](#1-2)
   - [多表查询](#多表查询)
-    - [1](#1-3)
   - [事务](#事务)
-    - [1](#1-4)
     - [事务的四大特性](#事务的四大特性)
     - [并发事务问题](#并发事务问题)
     - [事务隔离级别](#事务隔离级别)
   - [存储引擎](#存储引擎)
-    - [1](#1-5)
   - [索引](#索引)
-    - [1](#1-6)
     - [索引的分类](#索引的分类)
     - [索引语法](#索引语法)
     - [SQL性能分析](#sql性能分析)
@@ -73,7 +66,6 @@ date: 2023-11-30 11:25:45
 
 ## MySQL概述
 
-### 1
 区分DB，DBMS，SQL，RDBMS：
 - DB是database，数据库，是存储数据的仓库
 - DBMS是database management system，是管理数据库的软件，例如：MySQL、SQL Server等
@@ -82,7 +74,6 @@ date: 2023-11-30 11:25:45
 
 ## SQL
 
-### 1
 SQL分类
 - DDL：Data Definition Language，定义数据库对象（db，table，index）
 - DML: Data Manipulation Language，对数据库数据进行增删改
@@ -286,8 +277,6 @@ REVOKE 权限列表 ON dbname.tablename FROM 'username'@'host';
 
 ## 约束
 
-### 1
-
 约束是作用在表中字段上的规则，用于限制存储在表中的数据，保证数据的正确、有效性和完整性
 
 分类：
@@ -323,8 +312,6 @@ ALTER TABLE tablename ADD CONSTRAINT foreignKeyName FOREIGN KEY (col) REFERENCES
 ```
 
 ## 多表查询
-
-### 1
 
 多表关系
 - 一对多：在多的一方建立外键，指向一的一方的主键
@@ -381,8 +368,6 @@ SELECT * FROM a WHERE col1 = (SELECT col1 FROM b);
   - FROM后
 
 ## 事务
-
-### 1
 
 事务是一组操作的集合，事务会将所有操作一起向系统提交执行，要么同时成功，要么同时失败
 
@@ -441,8 +426,6 @@ SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL [4种]
 
 ## 存储引擎
 
-### 1
-
 存储引擎就是存储数据、建立索引、更新/查询数据等技术的实现方式。存储引擎是基于表的，而不是基于库的，所以存储引擎也可以被称为表类型
 
 ```SQL
@@ -494,8 +477,6 @@ InnoDB和MyISAM对比：
 - InnoDB 的性能比 MyISAM 更强大。
 
 ## 索引
-
-### 1
 
 索引是MySQL中的一种高效、有序的数据结构
 
