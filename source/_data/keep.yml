@@ -184,6 +184,9 @@ website_count:
     site_uv: true    # Option values: true | false
     site_pv: true    # Option values: true | false
     page_pv: true    # Option values: true | false
+  google_analytics:
+    enable: true
+    id: G-W9XDVER7YY
 
 # ---------------------------------------------------------------------------------------
 # Local Search
