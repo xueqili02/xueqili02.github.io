@@ -1,5 +1,5 @@
+var script = document.createElement("script");
+script.src = "/google_script.js";
 
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-W9XDVER7YY');
+var head = document.getElementsByName("head")[0];
+head.appendChild(script);
