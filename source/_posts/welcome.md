@@ -4,8 +4,8 @@ date: 2023-11-30 11:43:11
 # tags: [Hexo, Keep]
 # categories: Introduction
 ---
-
-<!-- Google tag (gtag.js) -->
+<head>
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W9XDVER7YY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,6 +14,9 @@ date: 2023-11-30 11:43:11
 
   gtag('config', 'G-W9XDVER7YY');
 </script>
+
+</head>
+
 
 Welcome to my website.
 
