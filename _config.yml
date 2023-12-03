@@ -103,3 +103,8 @@ theme: keep
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Google Analytics
+google_analytics: 
+  enable: true
+  id: G-W9XDVER7YY
