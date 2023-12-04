@@ -5,6 +5,19 @@ date: 2023-11-30 11:43:11
 # categories: Introduction
 ---
 
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W9XDVER7YY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W9XDVER7YY');
+</script>
+
+</head>
+
 Welcome to my website.
 
 Check my projects at [here](/projects).
