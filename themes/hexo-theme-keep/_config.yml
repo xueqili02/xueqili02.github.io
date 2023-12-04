@@ -676,7 +676,7 @@ inject:
       # - /css/custom-2.css
     # - ...
   js:
-    - /js/google_analytics.js
+    # - /js/google_analytics.js
       # e.g.
       # - /js/custom-1.js
       # - /js/custom-2.js
