@@ -5,6 +5,6 @@ var head = document.getElementsByName("head")[0];
 head.appendChild(script1);
 
 var script2 = document.createElement("script");
-script2.src = "/google_script.js";
+script2.src = "scripts/google_script.js";
 
 head.appendChild(script2);
