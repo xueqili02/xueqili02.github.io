@@ -26,7 +26,7 @@ style:
 
   # Your blog website logo image
   # You can use local image, image external link or don't fill
-  logo: https://i.imgur.com/77CaNz6.jpg
+  logo: /images/avatar.jpg # https://i.imgur.com/77CaNz6.jpg
 
   # Favicon (You can use local image or image external link)
   favicon: https://i.imgur.com/77CaNz6.jpg
