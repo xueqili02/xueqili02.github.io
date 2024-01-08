@@ -14,7 +14,7 @@ Download my CV [here](/download/cv_xueqili.pdf).
   - National Scholarship, twice. (Highest honor in Chinese Universities for top 0.2\% students nationwide).
 
 ## Research
-- Beijing Jiaotong University, Research Assistant, Superviser: Professor Ruipeng Gao, Aug 2022 - Sep 2022
+- Beijing Jiaotong University, Research Assistant, Superviser: Professor Ruipeng Gao, Oct 2022 - Sep 2022
   - Indoor Multi-Source Fusion Localization. Leveraged deep learning and smartphone sensors.
   - Manuscript submitted for review. See [Publications](/publications).
 - Beijing Jiaotong University, Research Assistant, Superviser: Professor Ruipeng Gao, Aug 2022 - Sep 2023
