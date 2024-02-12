@@ -16,7 +16,7 @@ Download my CV [here](/download/cv_xueqili.pdf).
 ## Research
 - Beijing Jiaotong University, Research Assistant, Superviser: Professor Ruipeng Gao, Oct 2022 - Sep 2022
   - Indoor Multi-Source Fusion Localization. Leveraged deep learning and smartphone sensors.
-  - Manuscript submitted for review. See [Publications](/publications).
+  - Paper Accepted. See [Publications](/publications).
 - Beijing Jiaotong University, Research Assistant, Superviser: Professor Ruipeng Gao, Aug 2022 - Sep 2023
   - Smartphone-based vehicle location based on LSTM. Trained and optimized speed inference model.
   - Won Runner-up (2nd) in the IEEE Int. Conf. on Indoor Positioning and Indoor Navigation Competition Track 6 - Smartphone on Vehicle.
