@@ -9,6 +9,8 @@ My name is Xueqi Li. I am currently a senior undergraduate student at Beijing Ji
 Download my CV [here](/download/cv_xueqili.pdf).
 
 ## Education
+- Carnegie Mellon University, Master of Computational Data Science, Aug 2024 - May 2026
+  - Courses: Introduction to Computer Systems, Foundations of Computational Data Science, Introduction to Machine Learning (Fall), Database Systems (Fall), Distributed Systems (Fall).
 - Beijing Jiaotong University, B.Eng. in Software Engineering, Sep 2020 - Jun 2024(Expected)
   - GPA: 3.87 / 4.0, Ranking: 1 / 183.
   - National Scholarship, twice. (Highest honor in Chinese Universities for top 0.2\% students nationwide).
@@ -22,17 +24,17 @@ Download my CV [here](/download/cv_xueqili.pdf).
   - Won Runner-up (2nd) in the IEEE Int. Conf. on Indoor Positioning and Indoor Navigation Competition Track 6 - Smartphone on Vehicle.
 
 ## Internship
-- NetEase Youdao, Backend Development Intern, Sep 2023 - Present
+- NetEase Youdao, Software Development Intern, Sep 2023 - Apr 2024
   - **Performance optimization.** Data synchronization service between MySQL and Elasticsearch.
   - **API development.** Develop over 30+ APIs for the Youdao Ads KOC platform.
   - **KOL search optimization.** Store and aggregate billion-level KOL and media data.
   - **Development.** Java, Spring Boot, MyBatis Plus, Elasticsearch, Docker, Git, CI/CD.
 
 ## Dev Skills & Tools
-- Programming Languages: Java (Proficient), Python, C/C++, SQL, JavaScript.
-- Frameworks: PyTorch, Spring Boot, Django, MyBatis.
+- Programming Languages: Java (Proficient), Python, C++, C, SQL, Lua, Assembly, JavaScript, HTML, CSS.
+- Frameworks: PyTorch, Spring Boot, Django, MyBatis, Qt, dlib, OpenCV.
 - Databases: MySQL, Redis.
-- Tools: Git, Docker, Latex, Elasticsearch, Postman, CI/CD.
+- Tools: Git, Docker, Latex, Elasticsearch, Postman, CI/CD, XXL-JOB, Lucene, Linux.
 
 ## Standardized Test
 
